@@ -1,10 +1,13 @@
 import React from 'react'
 import CoinSearch from '../components/CoinSearch'
+import Tranding from '../components/Tranding'
 
-const Home = () => {
+
+const Home = ({coins}) => {
   return (
     <div>
-        <CoinSearch/>
+        <CoinSearch coins={coins}/>
+        <Tranding/>
     </div>
   )
 }

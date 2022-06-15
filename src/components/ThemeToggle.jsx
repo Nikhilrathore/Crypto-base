@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext} from 'react'
 import {HiSun,HiMoon} from 'react-icons/hi'
 import { ThemeContext } from '../context/ThemeContext'
 
